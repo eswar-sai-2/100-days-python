@@ -1,13 +1,3 @@
-# username = "errorythm"
-# password = "12345"
-
-# u = input("Enter Username: ")
-# p = input("Enter Password: ")
-
-# if u == username and p == password:
-#     print("Login Successfully")
-# else:
-#     print("Login Failed!")
 
 username = "sai-eswar"
 password = "220"
