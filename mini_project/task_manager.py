@@ -1,7 +1,4 @@
 tasks = []
-
-
-
 while(True):
     print("====== TASK MANAGER ======")
     print("1. Add Task")
