@@ -1,7 +1,9 @@
 class BankAccount:
+
     def __init__(self, name, balance):
         self.name = name
         self.balance = balance
+
     def deposit(self, amount):
         self.balance = self.balance + amount
 
@@ -11,16 +13,23 @@ class BankAccount:
             print("Withdraw Successful.")
         else:
             print("Insufficient balance.")
-    def chekbalance(self):
+
+    def check_balance(self):
         print(f"Your Balance is {self.balance}.")
 
 
-account = BankAccount("sai", 2000)
-account.deposit(200)
-account.withdraw(200)
-account.chekbalance()
+name = input("Enter account holder name: ")
+balance = float(input("Enter initial balance: "))
 
-print("Name : ",account.name)
-print("Balance : ",account.balance)
+account = BankAccount(name, balance)
 
-        
+deposit_amount = float(input("Enter amount to deposit: "))
+account.deposit(deposit_amount)
+
+withdraw_amount = float(input("Enter amount to withdraw: "))
+account.withdraw(withdraw_amount)
+
+account.check_balance()
+
+print("Name:", account.name)
+print("Balance:", account.balance)
