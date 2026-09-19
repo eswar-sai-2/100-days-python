@@ -77,7 +77,7 @@ to load saved data.
 
 ▶️ Run the Project
 
-Open the terminal inside the day_32 folder and run:
+Open the terminal inside the day_31 folder and run:
 
 python main.py
 📌 Example
@@ -90,6 +90,6 @@ python main.py
 6. Exit
 
 Enter your choice:
-🎯 What I Learned
 
+🎯 What I Learned
 Through this project, I learned how to divide Python code into modules, store structured data using JSON, handle files, manage user input, and build a small real-world application.
