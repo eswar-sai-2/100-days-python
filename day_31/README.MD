@@ -80,6 +80,7 @@ to load saved data.
 Open the terminal inside the day_31 folder and run:
 
 python main.py
+
 📌 Example
 ===== EXPENSE TRACKER =====
 1. Add Expense
